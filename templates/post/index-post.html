@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Post</title>
+</head>
+<body>
+    <div>
+        {% for post in posts %}
+        <div>{{post.content}}</div>
+        <div>{{post.author}}</div>
+        <hr>
+        {% endfor %}
+    </div>
+</body>
+</html>

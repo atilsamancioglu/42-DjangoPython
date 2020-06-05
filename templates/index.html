@@ -1,0 +1,56 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'homeStatic/css/main.css' %}">
+    <title>index</title>
+</head>
+<body>
+    <header id="header" >
+        <div class="container">
+            <img class="imgs" src="{% static 'homeStatic/img/1408632_0134_2.jpg'%}">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#concat">Concat</a></li>
+                <li><a href="#">{{who}}</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="main">
+
+        <div class="back"></div>
+        <div id="text">
+            <p class="container">
+
+                <strong>Atıl Samancıoğlu Kimdir?</strong><br>
+
+                Atıl Samancıoğlu Udemy'de 200.000'den fazla öğrenciye iOS Mobil Geliştirme, Android Mobil Geliştirme, Python ve Etik Hacker'lık eğitimleri vermektedir.
+
+                Boğaziçi Üniversitesi'nde Mobil Geliştirme'ye Giriş dersi veren Atıl Samancıoğlu aynı zamanda Kolektif Academy kurucu ortağı ve CEO'su olarak görev almaktadır.
+
+                Udemy üzerinde eğitimler 5 üzerinden 4.6 puana sahip olup özellikle tamamen sıfırdan başlayan kişileri hedeflemektedir. Eğitimler Udemy üzerinden online olarak verilmektedir. Önceden kaydedilmiş videolardan oluşan kursları bir kere aldığınızda istediğiniz kadar izleme hakkına sahip oluyorsunuz.
+
+                Ayrıca takıldığınız yerleri soru & cevap kısmında sorarak hem diğer öğrencilere hem de eğitmene ulaşma hakkına sahip oluyorsunuz!
+                <a  class="btn" href="/post/index">Tüm Post 'ları Görmek İçin Tıklayınız.</a>
+
+            </p>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="container">
+            <img class="imgs" src="{% static 'homeStatic/img/1408632_0134_2.jpg'%}">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#concat">Concat</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

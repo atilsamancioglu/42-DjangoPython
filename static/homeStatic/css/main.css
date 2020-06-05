@@ -1,0 +1,102 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Ortak element özellikleri */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgs{
+    width:4rem;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 100%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul > li > a{
+    color: white;
+}
+ul > li > a{
+    padding:0.5rem 1rem;
+    border: 1px solid white;
+    margin-left: 0.2rem;
+    border-radius: 0.5rem;
+}
+.btn{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 4rem;
+    background: none;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.btn:hover{
+    background: white;
+    color: black;
+
+}
+/* Header Bölümü */
+#header{
+    width: 100%;
+    height: 4rem;
+    background: #194a8d;
+
+}
+
+/* Section Bölümü */
+
+section#main >  .back{
+    background: url('https://atilsamancioglu.com/wp-content/uploads/2018/01/qtq50-eO4OGy.jpeg');
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+section#main > #text{
+    background: #194a8d;
+    color: white;
+    white: 100%;
+}
+section#main > #text> p{
+    line-height: 2rem;
+    padding: 5rem 0;
+    text-align: justify;
+    flex-direction: column;
+}
+section#main > #text> p > strong{
+    text-shadow: 0 0 5px black;
+    margin: 1rem;
+}
+#posts{
+    background: #194a8d;
+    color: white;
+    display:block;
+}
+/* Footer Bölümü */
+footer{
+    background:  #1c2833 ;
+    width:100%;
+    height: 5rem;
+}
